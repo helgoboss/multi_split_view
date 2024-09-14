@@ -237,7 +237,7 @@ class _MultiSplitViewState extends State<MultiSplitView> {
         child = MouseRegion(
             cursor: cursor,
             child: child,
-            opaque: _draggingDivider != null,
+            // opaque: _draggingDivider != null,
             hitTestBehavior: _draggingDivider != null
                 ? HitTestBehavior.opaque
                 : HitTestBehavior.translucent);
